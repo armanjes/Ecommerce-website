@@ -1,0 +1,35 @@
+.custom-btn {
+  text-decoration: none;
+  background-image: url("../img/button.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 0 70px;
+}
+
+.hero-container {
+  background-image: url("../img/hero4.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.review-star {
+  color: orange;
+  font-size: 27px;
+}
+
+.banner {
+  background-image: url("../img/banner/b2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 250px;
+}
+
+@media screen and (max-width: 576px) {
+  .hero-container {
+    background-position: bottom;
+  }
+}

@@ -1,13 +1,741 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/bootstrap.css">
-</head>
-<body>
-    <h1>working</h1>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <header class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="./img/logo.png" alt="cara" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fs-6 fw-medium me-3" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 fw-medium me-3" href="./pages/shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 fw-medium me-3" href="./pages/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 fw-medium me-3" href="./pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 fw-medium me-3" href="./pages/contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-6 fw-medium me-3" href="#"
+                ><iconify-icon
+                  icon="ph:bag-light"
+                  width="24"
+                  height="24"
+                ></iconify-icon
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero -->
+      <section class="hero-container">
+        <div
+          class="container d-flex flex-column justify-content-center"
+          style="height: 100vh"
+        >
+          <b>Trade-in-offer</b>
+          <h1 class="display-4 fw-bold">
+            Super value deals <br />
+            <span class="text-success">On all products</span>
+          </h1>
+          <p class="lead fw-normal text-secondary">
+            Save more with coupons & up to 70% off
+          </p>
+          <a href="#" class="custom-btn text-black fs-5 fw-semibold"
+            >Shop now</a
+          >
+        </div>
+      </section>
+      <!-- feature section -->
+      <section class="container py-5">
+        <div class="row g-3">
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card p-3 shadow">
+              <img src="./img/features/f1.png" alt="" class="card-img-top" />
+              <h5 class="card-title text-center mt-3">Free Shipping</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card p-3 shadow">
+              <img src="./img/features/f2.png" alt="" class="card-img-top" />
+              <h5 class="card-title text-center mt-3">Free Shipping</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card p-3 shadow">
+              <img src="./img/features/f3.png" alt="" class="card-img-top" />
+              <h5 class="card-title text-center mt-3">Free Shipping</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card p-3 shadow">
+              <img src="./img/features/f4.png" alt="" class="card-img-top" />
+              <h5 class="card-title text-center mt-3">Free Shipping</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card p-3 shadow">
+              <img src="./img/features/f5.png" alt="" class="card-img-top" />
+              <h5 class="card-title text-center mt-3">Free Shipping</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <div class="card p-3 shadow">
+              <img src="./img/features/f6.png" alt="" class="card-img-top" />
+              <h5 class="card-title text-center mt-3">Free Shipping</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- featured products -->
+      <section class="container py-5">
+        <h1 class="text-center fs-1">Featured Products</h1>
+        <p class="text-center fw-light text-capitalize">
+          summer collection new modern design
+        </p>
+
+        <div class="row g-3">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/f1.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/f2.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/f3.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/f4.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/f5.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/f6.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/f7.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/f8.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success" class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- call to action banner -->
+      <section class="banner">
+        <div
+          class="container text-white d-flex flex-column justify-content-center align-items-center text-center"
+          style="height: 40vh"
+        >
+          <h5>Repair Services</h5>
+          <h1>
+            Up to <span class="text-danger">70% off </span>- All t-Shirts &
+            Accessories
+          </h1>
+          <button class="btn btn-light fw-bold">Explore more</button>
+        </div>
+      </section>
+      <!-- new arrivals -->
+      <section class="container py-5">
+        <h1 class="text-center fs-1">New Arrivals</h1>
+        <p class="text-center fw-light text-capitalize">
+          summer collection new modern design
+        </p>
+        <div class="row g-3">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/n1.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/n2.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/n3.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/n4.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/n5.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/n6.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/n7.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card p-2">
+              <img
+                class="card-img-top rounded-3"
+                src="./img/products/n8.jpg"
+                alt=""
+              />
+              <p class="text-secondary">adidas</p>
+              <h5 class="card-title">Cartoon Astronaut T-Shirts</h5>
+              <div class="review-stars fs-5 text-warning">
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                <iconify-icon icon="material-symbols:star"></iconify-icon>
+              </div>
+              <div
+                class="price-cart d-flex align-items-center justify-content-between"
+              >
+                <h5 class="text-success" class="text-success">$78</h5>
+                <div
+                  class="fs-3 bg-success-subtle text-success rounded-circle d-flex justify-content-center align-items-center p-2"
+                >
+                  <iconify-icon icon="mdi-light:cart"></iconify-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- call to action banner -->
+      <section class="container py-3">
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-6">
+            <div class="card">
+              <img src="./img/banner/b17.jpg" class="card-img" alt="..."
+              /style="height: 300px;">
+              <div
+                class="card-img-overlay text-white d-flex flex-column justify-content-center"
+              >
+                <p class="card-text fs-2 m-0">crazy deals</p>
+                <h1 class="card-title">buy 1 get 1 free</h1>
+                <p class="card-text">
+                  The best classic dress is on sale at cara
+                </p>
+                <div>
+                  <button class="btn btn-outline-light fs-5 fw-semibold">
+                    Learn more
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="card">
+              <img src="./img/banner/b10.jpg" class="card-img" alt="..."
+              /style="height: 300px;">
+              <div
+                class="card-img-overlay text-white d-flex flex-column justify-content-center"
+              >
+                <p class="card-text fs-2 m-0">spring/summer</p>
+                <h1 class="card-title">upcoming season</h1>
+                <p class="card-text">
+                  The best classic dress is on sale at cara
+                </p>
+                <div>
+                  <button class="btn btn-outline-light fs-5 fw-semibold">
+                    Collection
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- three banner -->
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./img/banner/b7.jpg"
+                class="card-img"
+                alt="..."
+                style="height: 220px"
+              />
+              <div
+                class="card-img-overlay text-white d-flex flex-column justify-content-center"
+              >
+                <h3 class="card-title text-uppercase">seasonal sale</h3>
+                <h4 class="card-text text-danger fs-5">
+                  winter collection -50% off
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./img/banner/b4.jpg"
+                class="card-img"
+                alt="..."
+                style="height: 220px"
+              />
+              <div
+                class="card-img-overlay text-white d-flex flex-column justify-content-center"
+              >
+                <h3 class="card-title text-uppercase">seasonal sale</h3>
+                <h4 class="card-text text-danger fs-5">
+                  winter collection -50% off
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./img/banner/b18.jpg"
+                class="card-img"
+                alt="..."
+                style="height: 220px"
+              />
+              <div
+                class="card-img-overlay text-white d-flex flex-column justify-content-center"
+              >
+                <h3 class="card-title text-uppercase">seasonal sale</h3>
+                <h4 class="card-text text-danger fs-5">
+                  winter collection -50% off
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- newsletter section -->
+      <section class="banner">
+        <div class="container text-white">
+          <div
+            class="row d-flex justify-content-center align-items-center text-center text-md-start"
+            style="height: 40vh"
+          >
+            <div class="col-md-6">
+              <h1 class="text-capitalize">sign up for newsletter</h1>
+              <p>
+                Get E-mail updates about our latest shop and
+                <span class="text-warning">special offers.</span>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <form class="d-flex" role="email">
+                <input
+                  class="form-control rounded-0 rounded-start"
+                  type="email"
+                  placeholder="Add your email"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-success rounded-0 rounded-end"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- icon js -->
+    <script src="./js/icon.js"></script>
+    <!-- bootstrap js -->
     <script src="./js/bootstrap.js"></script>
-</body>
+  </body>
 </html>
