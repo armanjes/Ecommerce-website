@@ -28,6 +28,28 @@
   height: 250px;
 }
 
+.shop-banner {
+  background-image: url("../img/banner/b1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 300px;
+}
+
+.blog-banner {
+  background-image: url("../img/banner/b19.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 300px;
+}
+
+.app-img {
+  border: 1px solid green;
+}
+
 @media screen and (max-width: 576px) {
   .hero-container {
     background-position: bottom;
