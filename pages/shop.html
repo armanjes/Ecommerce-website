@@ -83,7 +83,7 @@
       </section>
       <!-- product cards -->
       <section class="container py-5">
-        <div class="row g-3">
+        <div class="row g-3 products-row">
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card p-2">
               <img
@@ -716,6 +716,17 @@
         </div>
       </div>
     </footer>
+
+    <!--  -->
+    <script>
+      const products = document.querySelector(".products-row")
+      
+      products.addEventListener('click', function(e) {
+        const imgSrc = e.target.closest(".card").querySelector(".card-img-top").src;
+        window.location.href = `../singleProduct.html?imgSrc=${encodeURIComponent(imgSrc)}`;
+      })
+      
+    </script>
     <script src="../js/icon.js"></script>
     <script src="../js/bootstrap.js"></script>
   </body>
