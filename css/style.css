@@ -54,6 +54,20 @@
   height: 300px;
 }
 
+.about-banner {
+  background-image: url("../img/about/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 300px;
+}
+
+.blog-img {
+  max-height: 340px;
+  width: 400px;
+}
+
 .app-img {
   border: 1px solid green;
 }
